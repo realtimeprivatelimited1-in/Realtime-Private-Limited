@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Realtime Private Limited</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f5f8ff;
+  color:#172033;
+  line-height:1.6;
+}
+
+header{
+  background:#0756b8;
+  color:white;
+  padding:18px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:14px;
+}
+
+.hero{
+  background:linear-gradient(135deg,#0756b8,#0a8cff);
+  color:white;
+  text-align:center;
+  padding:75px 20px;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:12px;
+}
+
+.hero p{
+  font-size:18px;
+  max-width:700px;
+  margin:auto;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:25px;
+  padding:13px 25px;
+  background:white;
+  color:#0756b8;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+section{
+  padding:55px 7%;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:35px;
+}
+
+.title h2{
+  font-size:30px;
+  color:#0756b8;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:14px;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+  text-align:center;
+  border:1px solid #e5ecf7;
+}
+
+.card .icon{
+  height:120px;
+  background:#eef5ff;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#0756b8;
+  font-size:42px;
+  margin-bottom:18px;
+}
+
+.card h3{
+  color:#0756b8;
+  margin-bottom:8px;
+}
+
+.about{
+  background:white;
+}
+
+.contact{
+  background:#0756b8;
+  color:white;
+  text-align:center;
+}
+
+.contact h2{
+  font-size:30px;
+  margin-bottom:15px;
+}
+
+footer{
+  background:#101827;
+  color:white;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+
+@media(max-width:600px){
+  header{
+    padding:15px 5%;
+  }
+
+  nav a{
+    margin-left:8px;
+    font-size:12px;
+  }
+
+  .hero h1{
+    font-size:32px;
+  }
+
+  section{
+    padding:45px 5%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Realtime Private Limited</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a
